@@ -1,0 +1,14 @@
+ReadMe:
+
+How to run:
+
+q1) Perceptron
+>>python perceptron.py ionosphere.data
+>>python perceptron.py breast-cancer-wisconsin.data
+
+q2) MSE
+>>python lda_mse.py
+
+q3) LSA
+>> python lsa.py train_path test_path query_doc_path
+
