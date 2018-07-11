@@ -1,0 +1,27 @@
+to create executables: make all
+
+to start crs --> ./server
+to start client --> ./client "crs_ip_address"
+
+1) The CRS does not read from a pre existing repo file.
+2) Multiprocessing of client requests is not implemented,
+   hence sockets are predefined.
+3) The client considers only the files present in its directory.
+   No home directory implemented.
+4) search is implemented only for absolute name
+
+share:
+share "relative_path_name"
+search:
+search "file_name"
+get:
+get ip=ip_address_of_client fname="file_name"
+del:
+del "relative_path_name"
+RPC:
+exec ip=ip_address_of_client cmd="command"
+
+The clients are terminated by typing "exit" at the command prompt
+while to shut down the server press ctrl+c. Only after exiting the
+CRS the Repo file is created. The log and repo file are in the servers
+directory.
