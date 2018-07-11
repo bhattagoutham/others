@@ -1,4 +1,4 @@
-Note: Partially working
+Note: It has been partially implemented, and there are bugs in the code.
 
 Name: Goutham Bhatta
 
@@ -31,7 +31,7 @@ You can navigate the text using arrow keys.
 
 Note:
 If by chance the program changes the settings of you terminal, please execute "reset" command. It will revert back 
-the original setting of your terminal.
+the original setting of your terminal. 
 
 
 
