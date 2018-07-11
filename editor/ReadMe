@@ -1,0 +1,40 @@
+Roll.No: 20172063
+Roll.No: Goutham Bhatta
+
+This project is a barebones text editor.It tries to emulate the ViM.
+It has 2 modes, they are
+1) Command Mode
+2) Insert mode
+
+To build this project. Go to the folder and type "make". This will give you an executable
+file called "edit".
+
+You can start the editor using the following command
+eg: ./edit <file_name>
+
+Filename can be new or existing. If it is new then it will create a file after you save it.
+If it is an existing file it will display the contents on the screen, and then enters into command mode.
+
+From the Command Mode you can perform the following operations
+1) execute system calls   --> :!<command> --> eg: :!ls + (Enter Key)
+2) save the file and exit --> :wq + (Enter Key)
+3) over ride exit		  --> :q! + (Enter Key)
+3) normal exit			  --> :q + (Enter Key)
+4) insert mode			  ---> i
+
+If you want to enter insert mode, you need to press 'i'. In this mode you can edit the file.
+if you try inserting a charecter in the middle of a line, it will replace the character, 
+but does not shift the line. To delete a character press backspace key (It might give amibiguous result sometimes).
+You can navigate the text using arrow keys.
+
+
+Note:
+If by chance the program changes the settings of you terminal, please execute "reset" command. It will revert back 
+the original setting of your terminal.
+
+
+
+
+
+
+
