@@ -1,14 +1,14 @@
 ReadMe:
 
-How to run:
+How to execute:
 
-q1) Perceptron
+1) Perceptron (Voted vs Vanilla) on two datasets
 >>python perceptron.py ionosphere.data
 >>python perceptron.py breast-cancer-wisconsin.data
 
-q2) MSE
+2) Fisher's LDA vs MSE
 >>python lda_mse.py
 
-q3) LSA
+3) LSA (Latent Semantic Analysis) for finding relevant documents.
 >> python lsa.py train_path test_path query_doc_path
 
