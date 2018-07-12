@@ -2,6 +2,8 @@ Note: It has been partially implemented, and there are bugs in the code.
 
 Name: Goutham Bhatta
 
+To create executables: make editor
+
 This project is a barebones text editor.It tries to emulate the ViM.
 It has 2 modes, they are
 1) Command Mode
