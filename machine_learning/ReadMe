@@ -10,5 +10,6 @@ How to execute:
 >>python lda_mse.py
 
 3) LSA (Latent Semantic Analysis) for finding relevant documents.
->> python lsa.py train_path test_path query_doc_path
+>> python lsa.py train_path test_path query_doc_path (absolute path required)
+
 
